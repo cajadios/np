@@ -14,7 +14,6 @@ function Mail(){
 
     emailjs.sendForm('service_qs9j8zd', 'template_qwud7m9', form.current, 'ScUoGd5TPJdMFhrTy')
       .then((result) => {
-          console.log(result.text);
           alert("mensaje enviado")
       }, (error) => {
           console.log(error.text);

@@ -23,8 +23,11 @@ margin: 0 auto;
  
 }
 .titulo3{
+  display: inline-block;
+justify-content: center;
   color:white;
   font-size: 20px;
+  width: 80%;
 }
 .foto{
 
@@ -120,5 +123,5 @@ margin: 0 auto;
 }
 
 /* @media(min-width: 700px){
-
+  
 } */

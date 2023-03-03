@@ -6,7 +6,7 @@ import "./css/Home.css"
 function Home(){
     return(
         <div className="App">
-        <div>
+        <div >
         <NavBar />
        <div>
         <h1 className='titulo1'>Hola, soy :</h1>
@@ -17,9 +17,9 @@ function Home(){
           <img className='foto' alt="fotoCV" src={foto}/> 
         </div>
        </div>
-       <div>
-        <p className="titulo3">Sobre Mi:</p>
-        <p className="titulo3">Desarrollador Full Stack que siempre sigue aprendiendo , busco mejorar mis conocimientos a través del trabajo y en mi tiempo libre trato de probar nuevas tecnologías en proyectos personales.</p>
+       <div className="titulo3">
+        <p >Sobre Mi:</p>
+        <p >Desarrollador Full Stack que siempre sigue aprendiendo , busco mejorar mis conocimientos a través del trabajo y en mi tiempo libre trato de probar nuevas tecnologías en proyectos personales.</p>
        </div>
         </div>
       </div>
