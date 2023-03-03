@@ -11,9 +11,9 @@ function App() {
     <div>
     <Routes>
     <Route path="/np/" element={<Home />} exact/>
-    <Route path="/np/herramientas" element={<Tools />}/>
-    <Route path="/np/contacto" element={<Mail/>}/> 
-    <Route path="/np/proyectos" element={<Study/>}/>
+    <Route path="/herramientas" element={<Tools />}/>
+    <Route path="/contacto" element={<Mail/>}/> 
+    <Route path="/proyectos" element={<Study/>}/>
     </Routes>
     </div>
     </BrowserRouter>
