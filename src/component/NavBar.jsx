@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function NavBar(){
     return(
         <div className="nav">
-            <Link to="/">
+            <Link to="/np/">
             <GoHome title="Home" />{/*boton home */}
             </Link>
 
