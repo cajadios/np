@@ -7,13 +7,13 @@ import Study from './component/Study.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename="/np/">
+    <BrowserRouter >
     <div>
     <Routes>
-    <Route path="/" element={<Home />} exact/>
-    <Route path="/herramientas" element={<Tools />}/>
-    <Route path="/contacto" element={<Mail/>}/> 
-    <Route path="/proyectos" element={<Study/>}/>
+    <Route path="/np/" element={<Home />} exact/>
+    <Route path="/np/herramientas" element={<Tools />}/>
+    <Route path="/np/contacto" element={<Mail/>}/> 
+    <Route path="/np/proyectos" element={<Study/>}/>
     </Routes>
     </div>
     </BrowserRouter>
