@@ -7,7 +7,7 @@ import Study from './component/Study.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/np">
     <div>
     <Routes>
     <Route path="/" element={<Home />}/>
