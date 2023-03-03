@@ -7,10 +7,10 @@ import Study from './component/Study.jsx';
 
 function App() {
   return (
-    <BrowserRouter basename="/np">
+    <BrowserRouter basename="/np/">
     <div>
     <Routes>
-    <Route path="/" element={<Home />}/>
+    <Route path="/" element={<Home />} exact/>
     <Route path="/herramientas" element={<Tools />}/>
     <Route path="/contacto" element={<Mail/>}/> 
     <Route path="/proyectos" element={<Study/>}/>
