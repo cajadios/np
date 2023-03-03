@@ -7,21 +7,24 @@ import { Link } from "react-router-dom";
 function NavBar(){
     return(
         <div className="nav">
-            <Link to="/np/">
-            <GoHome title="Home" />{/*boton home */}
+           
+            <Link  to="/np/">
+            <GoHome className="nav-icon" title="Home" />{/*boton home */}
             </Link>
 
-            <Link to="/herramientas">
+            <Link className="nav-icon"  to="/herramientas">
             <GoTools title="Herramientas"/>{/* boton lo que se, con titulito de Henry*/}
             </Link>
-            
-           <Link to="/proyectos">
+              
+                <Link className="nav-icon"  to="/proyectos">
             <GoFile title="proyectos"/>
            </Link>
            
-            <Link to="/contacto">
+                <Link className="nav-icon"  to="/contacto">
             <GoCommentDiscussion title="Contactar"/>{/*boton contacto */}
-            </Link>
+            </Link> 
+           
+            
         </div>
     )
 }
