@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/np/static/css/main.59d04f35.css",
+    "main.js": "/np/static/js/main.ae566c04.js",
+    "static/js/787.a71561b8.chunk.js": "/np/static/js/787.a71561b8.chunk.js",
+    "static/media/nova.jpg": "/np/static/media/nova.c377f44b0e392424585e.jpg",
+    "static/media/VenturiniCV.pdf": "/np/static/media/VenturiniCV.cacdf99e683d5998a21c.pdf",
+    "static/media/tituloSanti.png": "/np/static/media/tituloSanti.2860025785840ada5f1d.png",
+    "static/media/foto.png": "/np/static/media/foto.a724de24fece4b0778c3.png",
+    "static/media/css.png": "/np/static/media/css.9f33c557b92e4e2e1cc8.png",
+    "static/media/linkedin.png": "/np/static/media/linkedin.a680cb8ad2b88be03d17.png",
+    "static/media/redux.png": "/np/static/media/redux.b426d97de12d4dab1c06.png",
+    "static/media/node.png": "/np/static/media/node.e71346fe0fec16ec5f6e.png",
+    "static/media/postgre.png": "/np/static/media/postgre.08135fa8dfcc164a5ccf.png",
+    "static/media/react.png": "/np/static/media/react.c39fe1cf1dc6559c7db6.png",
+    "static/media/sequelize.png": "/np/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "index.html": "/np/index.html",
+    "main.59d04f35.css.map": "/np/static/css/main.59d04f35.css.map",
+    "main.ae566c04.js.map": "/np/static/js/main.ae566c04.js.map",
+    "787.a71561b8.chunk.js.map": "/np/static/js/787.a71561b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59d04f35.css",
+    "static/js/main.ae566c04.js"
+  ]
+}
