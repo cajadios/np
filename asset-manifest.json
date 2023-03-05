@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/np/static/css/main.3f5864c2.css",
-    "main.js": "/np/static/js/main.b2ad4dce.js",
+    "main.css": "/np/static/css/main.cefb2dfe.css",
+    "main.js": "/np/static/js/main.ba940a81.js",
     "static/js/787.a71561b8.chunk.js": "/np/static/js/787.a71561b8.chunk.js",
     "static/media/nova.jpg": "/np/static/media/nova.c377f44b0e392424585e.jpg",
     "static/media/VenturiniCV.pdf": "/np/static/media/VenturiniCV.cacdf99e683d5998a21c.pdf",
@@ -15,12 +15,12 @@
     "static/media/react.png": "/np/static/media/react.c39fe1cf1dc6559c7db6.png",
     "static/media/sequelize.png": "/np/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/np/index.html",
-    "main.3f5864c2.css.map": "/np/static/css/main.3f5864c2.css.map",
-    "main.b2ad4dce.js.map": "/np/static/js/main.b2ad4dce.js.map",
+    "main.cefb2dfe.css.map": "/np/static/css/main.cefb2dfe.css.map",
+    "main.ba940a81.js.map": "/np/static/js/main.ba940a81.js.map",
     "787.a71561b8.chunk.js.map": "/np/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f5864c2.css",
-    "static/js/main.b2ad4dce.js"
+    "static/css/main.cefb2dfe.css",
+    "static/js/main.ba940a81.js"
   ]
 }
