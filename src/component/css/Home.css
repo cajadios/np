@@ -13,7 +13,7 @@
 font-size: 40px;
 color:white;
 display:inline-block;
-margin: 0 auto;
+margin: 0;
 
 }
 .titulo2{
@@ -26,8 +26,8 @@ margin: 0 auto;
   display: inline-block;
 justify-content: center;
   color:white;
-  font-size: 20px;
-  width: 80%;
+  font-size: 18px;
+  width: 90%;
 }
 .foto{
 
@@ -79,11 +79,12 @@ justify-content: center;
   border:none;
 }
 .proyectos{
-  width: 45vw;
+  width: 40vw;
   /* height: 40vh; */
   border-radius: 20px 20px 20px 20px;
   box-shadow: 10px 5px 5px #5E60CE;
 }
+
 
 @media(max-width: 750px){
   .foto{
@@ -119,6 +120,9 @@ justify-content: center;
     .proyectos{
       width: 70vw;
       /* height: 30vh; */
+    }
+    .form{
+    font-size: 16px;
     }
 }
 
