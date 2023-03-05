@@ -72,15 +72,15 @@ justify-content: center;
   margin: 20px;
 }
 .caja-texto{
-  width: 60vw;
-  height: 100px;
+  width: 40vw;
+  height: 200px;
 }
 .input{
   border:none;
 }
 .proyectos{
   width: 45vw;
-  height: 40vh;
+  /* height: 40vh; */
   border-radius: 20px 20px 20px 20px;
   box-shadow: 10px 5px 5px #5E60CE;
 }
@@ -118,7 +118,7 @@ justify-content: center;
     }
     .proyectos{
       width: 70vw;
-      height: 30vh;
+      /* height: 30vh; */
     }
 }
 

@@ -7,17 +7,20 @@ import linkedin from "../imagenes/linkedin.png"
 import github from "../imagenes/github.png"
 
 function Mail(){
+
     const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+   
     emailjs.sendForm('service_qs9j8zd', 'template_qwud7m9', form.current, 'ScUoGd5TPJdMFhrTy')
       .then((result) => {
-          alert("mensaje enviado")
+          alert("mensaje enviado");
+          form.current.reset();//esto resetea el useRef, creo
       }, (error) => {
           console.log(error.text);
       });
+     
   };
     return(
         <div className='App'>
@@ -26,13 +29,16 @@ function Mail(){
 
     <div >
     <form className='form' ref={form} onSubmit={sendEmail}>
+      <p>Enviar correo a santiago.e.venturini@gmail.com:</p>
       <label>Nombre</label>
-      <input className='input' type="text" name="user_name" />
+      <input className='input'  type="text" name="user_name" />
       <label>Email</label>
       <input className='input' type="email" name="user_email" />
       <label>Mensaje</label>
       <textarea className='caja-texto' name="message" />
-      <input className='boton' type="submit" value="Enviar" />
+      <input className='boton' type="submit" value="Enviar"  />
+      <p>La confirmación puede tardar unos segundos.</p>
+      <p>contacto:</p>
     </form>
 
     <div>
